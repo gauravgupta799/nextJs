@@ -3,14 +3,106 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  min-height: 80vh;
+  /* padding: 4rem 0; */
   flex: 1;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
+.heading{
+  text-align: center;
+}
+.navbar {
+  height:45px;
+  width:100%;
+  background-color:black;
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.logo{
+  color:lightgreen;
+  text-align:center;
+  padding:0px 10px;
+  font-size: 24px;
+  
+}
+.navbar > ul {
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  color:white;
+}
+.navbar > ul > li {
+  list-style: none;
+  margin:10px;
+  padding:0px 10px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight: 500;
+  letter-spacing:1px;
+  /* border:1px solid #fff; */
+}
+.navbar > ul > li:hover{
+  transform:scale(1.1);
+  transition: all 0.2 ease;
+  color:cyan;
+}
+
+.homeContainer{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:40rem;
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Free-Website-BAckgrounds1.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  opacity: 0.8;
+  text-align: center;
+  /* border:1px solid red; */
+}
+
+.homeContainer > h2 {
+  font-size:40px;
+  color:white;
+  letter-spacing:1px;
+}
+.homeContainer > h4 {
+  font-size:25px;
+  color:rgb(35, 210, 12);
+  letter-spacing:1px;
+  margin-top:-20px;
+}
+.homeContainer > button{
+  font-size:18px;
+  padding:10px 20px;
+  border-radius: 5px;
+  border:none;
+  background-color:crimson;
+  color:white;
+  letter-spacing:1px;
+  font-weight:400;
+} 
+.homeContainer > button:hover{
+  background-color:white;
+  color:crimson;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   display: flex;
