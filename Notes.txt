@@ -1,0 +1,54 @@
+👉 What is Nextjs?
+
+✅ NEXT.JS is a React Framework that enables you to build
+super fast & extremely user-friendly static websites.📲
+
+✅ NEXT.JS is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites📲
+---------------------------------------------------------------------
+👉 Why Should I Use NEXT.JS??👨
+
+✅ Next. js is an open-source development framework built on top of Node. js enabling React based web applications functionalities such as server-side rendering and generating static websites.📲
+---------------------------------------------------------------------
+👉 Why Should I Use NEXT.JS??👨‍💻
+
+✅ Next. js is an open-source development framework built on top of Node. js enabling React based web applications functionalities such as server-side rendering and generating static websites.📲
+----------------------------------------------------------------------
+👉 Is NEXT.JS Have Any New Features Other Than ReactJS?👨‍💻
+
+✅ Yes NextJS Has So Many New Features 
+
+✅ It Has Automatic Static Optimization 
+
+✅ Now your "Static" & "dynamic " content are one now 
+
+✅ The Features Allows Nextjs to build hybrid applications that contains both server-rendered & statically & statically generated pages 
+
+✅ It uses Server Side Rendering (SSR) & at the same time it can be also a great Static Site Generator (SSG) 
+----------------------------------------------------------------------
+
+👉 Why Should I Go With NEXT.JS??👨
+
+✅ The Big reason to choose NEXT.JS is its SEO efficiency 🌐
+----------------------------------------------------------------------
+👉 Is next JS full stack?👨
+
+✅NEXT.JS is a complete full-stack framework built on top of React. js.
+----------------------------------------------------------------------
+
+👉 NextJS vs ReactJS: Features
+When comparing NextJS and React, the first thing to look at is their features. Both frameworks have a lot to offer, but there are some key differences between them.
+It's important to note them NextJS is based on React and is meant to amplity it's capabilities and provide tools to make the most out of react.
+
+👉 ReactJS:
+💚 Ease of use: React is easy to learn and use, making it a good choice for developers who are new to JavaScript frameworks.
+Component based: React allows you to create reusable components, which can be used to build complex user interfaces and applications.
+💚 Virtual DOM: React uses a virtual DOM, which makes it fast and efficient when rendering large lists of data or complex user interfaces.
+💚 JSX: JSX is a syntax extension of JavaScript that allows you to write HTMLlike code inside JavaScript files. Data binding: React uses oneway data binding, which means that data flows in one direction from the parent component to the child component.
+💚 Extensibility: React can be extended with thirdparty libraries and plugins to add additional functionality if needed.
+
+
+👉 Next.js:
+🟠 Serverside rendering: Next.js comes with builtin support for serverside rendering, which can improve the performance of your application. Static site generation: With Next.js, you can generate static versions of your pages, which can be deployed without a server.
+🟠 Routing: Next.js has builtin routing capabilities, making it easy to create singlepage applications (SPAs).
+🟠 TypeScript support: TypeScript is a typed superset of JavaScript that enables type checking and other advanced features. Next.js comes with builtin support for TypeScript out of the box.
+🟠 File system routing: With Next.js, you can define your routes directly in your file system, which can make things easier to manage if you have a large application.
