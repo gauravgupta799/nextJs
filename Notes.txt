@@ -52,3 +52,8 @@ Component based: React allows you to create reusable components, which can be us
 🟠 Routing: Next.js has builtin routing capabilities, making it easy to create singlepage applications (SPAs).
 🟠 TypeScript support: TypeScript is a typed superset of JavaScript that enables type checking and other advanced features. Next.js comes with builtin support for TypeScript out of the box.
 🟠 File system routing: With Next.js, you can define your routes directly in your file system, which can make things easier to manage if you have a large application.
+
+▶ Nested Routing
+▶ Dynamic Routing
+
+
