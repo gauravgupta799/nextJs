@@ -1,0 +1,16 @@
+.heading{
+    color:rgb(216, 225, 222);
+    font-size:40px;
+    text-align:center;
+}
+.aboutMainContainer{
+    background-color:rgb(40, 88, 81);
+    height:100vh;
+}
+.aboutContainer{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}

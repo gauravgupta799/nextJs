@@ -1,11 +1,14 @@
 import styles from '../styles/Home.module.css'
 import Navbar from "../Components/Navbar";
+import Styles from "../styles/about.module.css";
 
 const About = () => {
   return (
-    <div>
+    <div className={Styles.aboutMainContainer}>
       <Navbar/>
-      <h2 className={styles.heading}> Hi viewer, You are on the About Page</h2>
+      <div className={Styles.aboutContainer}>
+         <h2 className={Styles.heading}> Hi viewer, You are on the About Page</h2>
+      </div>
     </div>
   )
 }

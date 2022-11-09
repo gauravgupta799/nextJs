@@ -1,0 +1,16 @@
+.heading{
+    color:white;
+    font-size:40px;
+    text-align:center;
+}
+.contactMainContainer{
+    background-color:rgb(4, 48, 136);
+    height:100vh;
+}
+.contactContainer{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}

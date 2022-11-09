@@ -1,11 +1,13 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/contact.module.css'
 import Navbar from "../Components/Navbar";
 
 const Contact = () => {
   return (
-    <div>
+    <div className={styles.contactMainContainer}>
       <Navbar/>
-      <h2 className={styles.heading}> Hi viewer, You are on the Contact Page</h2>
+      <div className={styles.contactContainer}>
+        <h2 className={styles.heading}> Hi viewer, You are on the Contact Page</h2>
+      </div>
     </div>
   )
 }
