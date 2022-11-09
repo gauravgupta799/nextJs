@@ -1,6 +1,6 @@
-.container {
+/* .container {
   padding: 0 2rem;
-}
+} */
 
 .main {
   min-height: 80vh;
@@ -70,6 +70,10 @@
   color:white;
   letter-spacing:1px;
 }
+.homeContainer > h2::first-letter{
+
+
+}
 .homeContainer > h4 {
   font-size:25px;
   color:rgb(35, 210, 12);
@@ -91,18 +95,53 @@
   color:crimson;
   cursor: pointer;
 }
+.notFound {
+  border:1px solid red;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.title404_Div{
+ font-size: 5rem;
+ z-index: 1;
+ position: absolute;
+ opacity: 0.2;
+}
+.bottomDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.bottomDiv > h2{
+  font-size:3rem;
+  text-transform: uppercase;
+}
 
+.bottomDiv >p {
+  font-size:20px;
+  margin-top:-1rem;
+  font-family: "Helvetica Neue",sans-serif;
+}
 
-
-
-
-
-
-
-
-
-
-
+#link{
+  border:1px solid yellow;
+  height:50px;
+  padding:10px 20px;
+  text-align:center;
+  background-color:black;
+  color:white;
+  border-radius: 5px;
+  transition:all 0.8 ease;
+}
+#link:hover{
+  transform:scale(1.01);
+  color:yellow;
+}
 
 .footer {
   display: flex;
