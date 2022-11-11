@@ -1,5 +1,6 @@
 import Navbar from "../../Components/Navbar";
 import styles from "../../styles/Home.module.css";
+import Link from 'next/link';
 
 export const getStaticProps = async () => {
 	const res = await fetch("https://jsonplaceholder.typicode.com/posts")
@@ -21,12 +22,15 @@ const index = ({data}) => {
               <h2>Loading.............</h2>
             </div>
           :
-          data.slice(0,10).map((curElem)=>{
+          data.slice(0,5).map((curElem)=>{
+            const {id,title} = curElem;
               return(
-                <div key={curElem.id} className={styles.blogContainer}>
-                    <h3>{curElem.id}</h3>
-                    <h2>{curElem.title}</h2>
-                </div>
+                  <div key={id} className={styles.blogContainer}>
+                      <h3>{id}</h3>
+                      <Link href={`/blogs/${id}`} id={styles.blogTitle}>
+                        <h2>{title}</h2>
+                      </Link>
+                  </div>
               )
             })
         }
