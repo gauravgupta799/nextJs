@@ -34,6 +34,10 @@ const index = ({data}) => {
               )
             })
         }
+        <div className={styles.btnWrapper}>
+          <button>Prev</button>
+          <button>Next</button>
+        </div>
       </main>
     <footer className={styles.footer}>
       <span>Powered by Gaurav</span>
